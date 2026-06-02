@@ -288,3 +288,96 @@ Para consolidar lo aprendido, mira cómo se comparan en la cancha:
 * **Desventaja Principal:** Ineficiente, ya que siempre realiza el mismo número de comparaciones.
 
 ---
+
+# Guía Teórica de Algoritmos de Ordenamiento Eficientes: Complejidad $O(n \log n)$
+
+Esta guía analiza en profundidad la mecánica teórica, el análisis de complejidad y los criterios de diseño de los tres algoritmos de ordenamiento por comparación más utilizados en la ciencia de la computación: **Merge Sort**, **Quick Sort** y **Heap Sort**.
+
+---
+
+## 1. El Santo Grial de la Eficiencia: ¿Por qué $O(n \log n)$?
+
+En las ciencias de la computación, se demuestra mediante el **modelo de árbol de decisión** que cualquier algoritmo de ordenamiento basado en comparaciones requiere, en el peor de los casos, un número de operaciones proporcional a $\Omega(n \log n)$. 
+
+Algoritmos primitivos como *Bubble Sort* o *Insertion Sort* tienen una complejidad de $O(n^2)$ porque comparan prácticamente cada elemento con todos los demás. Los algoritmos eficientes rompen esta barrera geométrica reduciendo la altura del árbol de decisiones requeridas para ubicar un elemento en su posición final.
+
+* **El componente $n$:** Indica que cada elemento del conjunto debe ser examinado o procesado al menos una vez en cada nivel del proceso.
+* **El componente $\log n$:** Representa el número de niveles o divisiones necesarias para fragmentar el problema original hasta su mínima expresión (un árbol binario balanceado de tamaño $n$ tiene una altura de $\log_2 n$).
+
+---
+
+## 2. Merge Sort (Ordenamiento por Mezcla)
+
+### Estrategia de División y Conquista
+Merge Sort es la aplicación purista del paradigma **Divide y Vencerás** (*Divide and Conquer*). Su funcionamiento se rige por una estrategia estrictamente geométrica y descendente:
+
+1.  **División (Top-Down):** El arreglo se divide exactamente a la mitad de forma continua calculando el índice medio: $medio = izquierda + (derecha - izquierda) / 2$. Este proceso se repite recursivamente hasta obtener $n$ sub-arreglos de un solo elemento. Por definición, un arreglo con un único elemento ya está ordenado.
+2.  **Conquista (Bottom-Up):** Comienza la fase de fusión (*Merge*). Se toman dos sub-arreglos ordenados adyacentes y se combinan para formar un nuevo arreglo ordenado de mayor tamaño.
+
+### El Rol de la Recursión y Estructuras Auxiliares
+La recursión en Merge Sort garantiza una estructura de árbol binario perfectamente balanceada. La ecuación de recurrencia del algoritmo es:
+
+$$T(n) = 2T(n/2) + O(n)$$
+
+Donde $2T(n/2)$ representa el costo de resolver las dos mitades recursivamente, y $O(n)$ representa el tiempo requerido para fusionar las dos mitades. Según el Teorema Maestro, esto resulta en una complejidad temporal estricta de **$O(n \log n)$** en todos los casos (mejor, peor y promedio).
+
+* **Estructura Auxiliar:** Su gran desventaja teórica es que **no es un algoritmo *in-place***. Para fusionar los sub-arreglos sin sobrescribir datos corruptores, Merge Sort requiere asignar un espacio de memoria RAM auxiliar de tamaño proporcional al arreglo original. Su complejidad espacial es **$O(n)$**.
+* **Estabilidad:** **Sí es estable**. Durante la fase de fusión, si dos elementos son idénticos, el algoritmo prioriza siempre el elemento proveniente del sub-arreglo izquierdo, preservando estrictamente el orden relativo original de los registros.
+
+---
+
+## 3. Quick Sort (Ordenamiento Rápido)
+
+### Estrategia de Particionado y el Pivote
+A diferencia de Merge Sort, que divide el arreglo por su posición física, Quick Sort lo divide basándose en el **valor** de los elementos mediante un elemento estratégico llamado **Pivote**.
+
+1.  **Selección del Pivote:** Se elige un elemento del arreglo (puede ser el primero, el último, el del medio, o uno aleatorio).
+2.  **Particionado (Fase Central):** Se reorganiza el arreglo de tal manera que todos los elementos con un valor menor que el pivote se desplacen a su izquierda, y todos los elementos con un valor mayor queden a su derecha. Al finalizar esta fase, el pivote queda fijado en su **posición real y definitiva** del arreglo ordenado.
+3.  **Recursión:** Se aplica recursivamente el mismo principio a los sub-arreglos izquierdo y derecho resultantes.
+
+### Análisis Teórico de la Degradación de Complejidad
+Quick Sort es altamente eficiente en la práctica debido a la **localidad de caché** (trabaja con bloques contiguos de memoria), pero su rendimiento teórico es condicional:
+
+* **Caso Promedio y Mejor Caso ($O(n \log n)$):** Ocurre cuando el pivote elegido divide el arreglo en dos mitades aproximadamente balanceadas en cada paso recursivo. La ecuación es similar a la de Merge Sort.
+* **Peor Caso ($O(n^2)$):** Ocurre si el pivote elegido es consistentemente el elemento más pequeño o más grande del sub-arreglo (por ejemplo, al intentar ordenar un arreglo que ya está completamente ordenado o invertido usando el último elemento como pivote). En este escenario, la recursión no divide el problema a la mitad, sino que reduce el tamaño en $n-1$, generando un árbol degenerado de altura $n$. La ecuación de recurrencia se convierte en $T(n) = T(n-1) + O(n)$.
+
+* **Estructura Auxiliar:** Trabaja **_in-place_**. No requiere arreglos adicionales para la separación. Sin embargo, consume memoria en la pila de llamadas recursivas (*call stack*), la cual requiere un espacio de **$O(\log n)$** en promedio.
+* **Estabilidad:** **No es estable**. Los intercambios de elementos (*swaps*) durante la fase de particionado se realizan a largas distancias saltando posiciones intermedias, lo que destruye el orden relativo previo de elementos con llaves idénticas.
+
+---
+
+## 4. Heap Sort (Ordenamiento por Montículo)
+
+### La Estructura de Datos Max-Heap
+Heap Sort abandona la estrategia de partición física y opta por una perspectiva abstracta basada en una estructura de datos: el **Montículo Máximo (Max-Heap)**. Un Max-Heap es un árbol binario completo donde se cumple estrictamente la **propiedad de montículo**: el valor de cada nodo padre es siempre mayor o igual que el valor de sus nodos hijos.
+
+Teóricamente, este árbol se mapea directamente sobre un arreglo unidimensional sin necesidad de punteros complejos, utilizando relaciones aritméticas de índices:
+* Para un nodo en el índice $i$:
+    * Su hijo izquierdo se encuentra en: $2i + 1$
+    * Su hijo derecho se encuentra en: $2i + 2$
+    * Su padre se encuentra en: $(i - 1) / 2$
+
+### Mecánica Operativa del Algoritmo
+El algoritmo se ejecuta en dos grandes fases cíclicas:
+
+1.  **Construcción del Montículo (*Heapify* de abajo hacia arriba):** Se reorganizan los elementos del arreglo crudo para cumplir con la propiedad de Max-Heap. Aunque parece una operación costosa, formalmente se demuestra que construir un heap a partir de un arreglo desordenado toma un tiempo lineal de **$O(n)$**.
+2.  **Extracción de la Raíz (Ordenamiento Descendente):** En un Max-Heap, el elemento más grande siempre reside en la raíz (índice 0). El algoritmo intercambia la raíz con el último elemento del arreglo actual. Al hacer esto, el elemento mayor queda en su posición correcta al final del arreglo. Luego, se reduce el tamaño del montículo considerado en 1 y se invoca la función *Heapify* en la nueva raíz para restaurar la propiedad de montículo. Este proceso de extracción cuesta $O(\log n)$ y se repite $n-1$ veces.
+
+### Complejidad y Rigidez
+La complejidad de Heap Sort es determinista y sumamente consistente: **$O(n \log n)$ en el mejor, peor y promedio de los casos**. Esto se debe a que la altura de un árbol binario completo de tamaño $n$ es siempre $\log_2 n$, y cada proceso de restauración del montículo requiere recorrer esa altura.
+
+* **Estructura Auxiliar:** Es estrictamente **_in-place_** con una complejidad espacial de **$O(1)$**, ya que reutiliza los índices del propio arreglo original para simular el árbol binario.
+* **Estabilidad:** **No es estable**. La reestructuración del árbol mueve elementos a través de ramas distantes, alterando el orden original de elementos con claves duplicadas.
+
+---
+
+## 5. Matriz de Decisiones de Arquitectura de Software
+
+Para un arquitecto de software o desarrollador de sistemas de misión crítica, la elección del algoritmo óptimo depende de las restricciones físicas y operativas del entorno de ejecución:
+
+| Criterio de Selección | Algoritmo Recomendado | Fundamento Teórico |
+| :--- | :--- | :--- |
+| **Sistemas embebidos o memoria crítica** | **Heap Sort** | Ofrece la garantía total de un tiempo de ejecución $O(n \log n)$ consumiendo exactamente $O(1)$ de memoria extra. |
+| **Estabilidad de Datos (Objetos Complejos)** | **Merge Sort** | Garantiza que si ordenás una lista de facturas por fecha, y luego por cliente, el orden de las fechas no se romperá para un mismo cliente. |
+| **Rendimiento Puro en CPU Moderna** | **Quick Sort** | Sus accesos a memoria son secuenciales y localizados. Esto maximiza los aciertos en la memoria caché del procesador (*cache hits*), superando a Heap Sort en la práctica. |
+| **Ordenamiento de Listas Enlazadas** | **Merge Sort** | El acceso aleatorio de Quick o Heap Sort destruye el rendimiento en listas enlazadas. Merge Sort puede implementarse en listas enlazadas modificando punteros sin requerir el espacio auxiliar de $O(n)$. |
