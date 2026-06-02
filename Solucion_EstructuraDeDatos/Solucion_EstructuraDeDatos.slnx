@@ -1,1 +1,6 @@
-<Solution />
+<Solution>
+  <Folder Name="/01_ListasEnlazadas/">
+    <Project Path="01_ListaEnlazadaSimple/01_ListaEnlazadaSimple.csproj" />
+    <Project Path="02_ListaEnlazada/02_ListaEnlazada.csproj" />
+  </Folder>
+</Solution>
