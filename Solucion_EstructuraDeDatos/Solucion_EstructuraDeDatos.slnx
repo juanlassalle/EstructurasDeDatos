@@ -3,4 +3,8 @@
     <Project Path="01_ListaEnlazadaSimple/01_ListaEnlazadaSimple.csproj" />
     <Project Path="02_ListaEnlazada/02_ListaEnlazada.csproj" />
   </Folder>
+  <Folder Name="/02_Pilas/">
+    <Project Path="02_CrearPila/02_CrearPila.csproj" />
+    <Project Path="02_Pila/02_Pila.csproj" />
+  </Folder>
 </Solution>

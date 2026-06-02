@@ -3,20 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\Lasalle 03-23\\Desktop\\Programacion1\\Practica\\EstructurasDeDatos\\Solucion_EstructuraDeDatos\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{27865C35-00F7-4D40-A6B2-61ACB3A43E68}|02_ListaEnlazada\\02_ListaEnlazada.csproj|c:\\users\\lasalle 03-23\\desktop\\programacion1\\practica\\estructurasdedatos\\solucion_estructuradedatos\\02_listaenlazada\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{27865C35-00F7-4D40-A6B2-61ACB3A43E68}|02_ListaEnlazada\\02_ListaEnlazada.csproj|solutionrelative:02_listaenlazada\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{D10D6F46-DB59-46C2-AB9A-C232C57A884B}|02_CrearPila\\02_CrearPila.csproj|c:\\users\\lasalle 03-23\\desktop\\programacion1\\practica\\estructurasdedatos\\solucion_estructuradedatos\\02_crearpila\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D10D6F46-DB59-46C2-AB9A-C232C57A884B}|02_CrearPila\\02_CrearPila.csproj|solutionrelative:02_crearpila\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{901567E7-AFA0-4EC2-90CF-308C01911E03}|01_ListaEnlazadaSimple\\01_ListaEnlazadaSimple.csproj|c:\\users\\lasalle 03-23\\desktop\\programacion1\\practica\\estructurasdedatos\\solucion_estructuradedatos\\01_listaenlazadasimple\\nodo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{901567E7-AFA0-4EC2-90CF-308C01911E03}|01_ListaEnlazadaSimple\\01_ListaEnlazadaSimple.csproj|solutionrelative:01_listaenlazadasimple\\nodo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{901567E7-AFA0-4EC2-90CF-308C01911E03}|01_ListaEnlazadaSimple\\01_ListaEnlazadaSimple.csproj|c:\\users\\lasalle 03-23\\desktop\\programacion1\\practica\\estructurasdedatos\\solucion_estructuradedatos\\01_listaenlazadasimple\\listaenlazadasimple.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{901567E7-AFA0-4EC2-90CF-308C01911E03}|01_ListaEnlazadaSimple\\01_ListaEnlazadaSimple.csproj|solutionrelative:01_listaenlazadasimple\\listaenlazadasimple.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{901567E7-AFA0-4EC2-90CF-308C01911E03}|01_ListaEnlazadaSimple\\01_ListaEnlazadaSimple.csproj|c:\\users\\lasalle 03-23\\desktop\\programacion1\\practica\\estructurasdedatos\\solucion_estructuradedatos\\01_listaenlazadasimple\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{901567E7-AFA0-4EC2-90CF-308C01911E03}|01_ListaEnlazadaSimple\\01_ListaEnlazadaSimple.csproj|solutionrelative:01_listaenlazadasimple\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{D10D6F46-DB59-46C2-AB9A-C232C57A884B}|02_CrearPila\\02_CrearPila.csproj|c:\\users\\lasalle 03-23\\desktop\\programacion1\\practica\\estructurasdedatos\\solucion_estructuradedatos\\02_crearpila\\pila.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D10D6F46-DB59-46C2-AB9A-C232C57A884B}|02_CrearPila\\02_CrearPila.csproj|solutionrelative:02_crearpila\\pila.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,58 +18,32 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Pila.cs",
+              "DocumentMoniker": "C:\\Users\\Lasalle 03-23\\Desktop\\Programacion1\\Practica\\EstructurasDeDatos\\Solucion_EstructuraDeDatos\\02_CrearPila\\Pila.cs",
+              "RelativeDocumentMoniker": "02_CrearPila\\Pila.cs",
+              "ToolTip": "C:\\Users\\Lasalle 03-23\\Desktop\\Programacion1\\Practica\\EstructurasDeDatos\\Solucion_EstructuraDeDatos\\02_CrearPila\\Pila.cs",
+              "RelativeToolTip": "02_CrearPila\\Pila.cs",
+              "ViewState": "AgIAADEAAAAAAAAAAAAIwEAAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-02T13:50:58.525Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\Lasalle 03-23\\Desktop\\Programacion1\\Practica\\EstructurasDeDatos\\Solucion_EstructuraDeDatos\\02_ListaEnlazada\\Program.cs",
-              "RelativeDocumentMoniker": "02_ListaEnlazada\\Program.cs",
-              "ToolTip": "C:\\Users\\Lasalle 03-23\\Desktop\\Programacion1\\Practica\\EstructurasDeDatos\\Solucion_EstructuraDeDatos\\02_ListaEnlazada\\Program.cs",
-              "RelativeToolTip": "02_ListaEnlazada\\Program.cs",
-              "ViewState": "AgIAACYAAAAAAAAAAAAkwDYAAAAJAAAAAAAAAA==",
+              "DocumentMoniker": "C:\\Users\\Lasalle 03-23\\Desktop\\Programacion1\\Practica\\EstructurasDeDatos\\Solucion_EstructuraDeDatos\\02_CrearPila\\Program.cs",
+              "RelativeDocumentMoniker": "02_CrearPila\\Program.cs",
+              "ToolTip": "C:\\Users\\Lasalle 03-23\\Desktop\\Programacion1\\Practica\\EstructurasDeDatos\\Solucion_EstructuraDeDatos\\02_CrearPila\\Program.cs",
+              "RelativeToolTip": "02_CrearPila\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAkAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-02T13:09:22.063Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "ListaEnlazadaSimple.cs",
-              "DocumentMoniker": "C:\\Users\\Lasalle 03-23\\Desktop\\Programacion1\\Practica\\EstructurasDeDatos\\Solucion_EstructuraDeDatos\\01_ListaEnlazadaSimple\\ListaEnlazadaSimple.cs",
-              "RelativeDocumentMoniker": "01_ListaEnlazadaSimple\\ListaEnlazadaSimple.cs",
-              "ToolTip": "C:\\Users\\Lasalle 03-23\\Desktop\\Programacion1\\Practica\\EstructurasDeDatos\\Solucion_EstructuraDeDatos\\01_ListaEnlazadaSimple\\ListaEnlazadaSimple.cs",
-              "RelativeToolTip": "01_ListaEnlazadaSimple\\ListaEnlazadaSimple.cs",
-              "ViewState": "AgIAADQAAAAAAAAAAAAcwFYAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-02T13:05:10.583Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Nodo.cs",
-              "DocumentMoniker": "C:\\Users\\Lasalle 03-23\\Desktop\\Programacion1\\Practica\\EstructurasDeDatos\\Solucion_EstructuraDeDatos\\01_ListaEnlazadaSimple\\Nodo.cs",
-              "RelativeDocumentMoniker": "01_ListaEnlazadaSimple\\Nodo.cs",
-              "ToolTip": "C:\\Users\\Lasalle 03-23\\Desktop\\Programacion1\\Practica\\EstructurasDeDatos\\Solucion_EstructuraDeDatos\\01_ListaEnlazadaSimple\\Nodo.cs",
-              "RelativeToolTip": "01_ListaEnlazadaSimple\\Nodo.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAdAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-02T13:03:16.409Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\Lasalle 03-23\\Desktop\\Programacion1\\Practica\\EstructurasDeDatos\\Solucion_EstructuraDeDatos\\01_ListaEnlazadaSimple\\Program.cs",
-              "RelativeDocumentMoniker": "01_ListaEnlazadaSimple\\Program.cs",
-              "ToolTip": "C:\\Users\\Lasalle 03-23\\Desktop\\Programacion1\\Practica\\EstructurasDeDatos\\Solucion_EstructuraDeDatos\\01_ListaEnlazadaSimple\\Program.cs",
-              "RelativeToolTip": "01_ListaEnlazadaSimple\\Program.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAwwBoAAAAqAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-02T13:02:50.828Z",
+              "WhenOpened": "2026-06-02T13:50:25.444Z",
               "EditorCaption": ""
             }
           ]
