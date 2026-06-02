@@ -11,4 +11,11 @@
     <Project Path="03_Colas/03_Colas.csproj" />
     <Project Path="03_CrearPila/03_CrearPila.csproj" />
   </Folder>
+  <Folder Name="/04_ArbolesBinarios/">
+    <Project Path="04_ArbolesBin/04_ArbolesBin.csproj" />
+    <Project Path="ArbolBinarioBusqueda/ArbolBinarioBusqueda.csproj" />
+  </Folder>
+  <Folder Name="/05_AlgoritmosOrdenamiento/">
+    <Project Path="05_Ordenamientos/05_Ordenamientos.csproj" />
+  </Folder>
 </Solution>

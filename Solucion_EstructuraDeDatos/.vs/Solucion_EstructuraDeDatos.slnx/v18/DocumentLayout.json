@@ -3,16 +3,8 @@
   "WorkspaceRootPath": "C:\\Users\\Lasalle 03-23\\Desktop\\Programacion1\\Practica\\EstructurasDeDatos\\Solucion_EstructuraDeDatos\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{FFCA1671-EE3A-46E4-AA86-9B9A09B91D52}|03_CrearPila\\03_CrearPila.csproj|c:\\users\\lasalle 03-23\\desktop\\programacion1\\practica\\estructurasdedatos\\solucion_estructuradedatos\\03_crearpila\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FFCA1671-EE3A-46E4-AA86-9B9A09B91D52}|03_CrearPila\\03_CrearPila.csproj|solutionrelative:03_crearpila\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FFCA1671-EE3A-46E4-AA86-9B9A09B91D52}|03_CrearPila\\03_CrearPila.csproj|c:\\users\\lasalle 03-23\\desktop\\programacion1\\practica\\estructurasdedatos\\solucion_estructuradedatos\\03_crearpila\\cola.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FFCA1671-EE3A-46E4-AA86-9B9A09B91D52}|03_CrearPila\\03_CrearPila.csproj|solutionrelative:03_crearpila\\cola.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FFCA1671-EE3A-46E4-AA86-9B9A09B91D52}|03_CrearPila\\03_CrearPila.csproj|c:\\users\\lasalle 03-23\\desktop\\programacion1\\practica\\estructurasdedatos\\solucion_estructuradedatos\\03_crearpila\\nodo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FFCA1671-EE3A-46E4-AA86-9B9A09B91D52}|03_CrearPila\\03_CrearPila.csproj|solutionrelative:03_crearpila\\nodo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B4AEA1B6-51F3-4AD9-A976-50A9EE1EECCF}|05_Ordenamientos\\05_Ordenamientos.csproj|c:\\users\\lasalle 03-23\\desktop\\programacion1\\practica\\estructurasdedatos\\solucion_estructuradedatos\\05_ordenamientos\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B4AEA1B6-51F3-4AD9-A976-50A9EE1EECCF}|05_Ordenamientos\\05_Ordenamientos.csproj|solutionrelative:05_ordenamientos\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,46 +14,19 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 0,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Cola.cs",
-              "DocumentMoniker": "C:\\Users\\Lasalle 03-23\\Desktop\\Programacion1\\Practica\\EstructurasDeDatos\\Solucion_EstructuraDeDatos\\03_CrearPila\\Cola.cs",
-              "RelativeDocumentMoniker": "03_CrearPila\\Cola.cs",
-              "ToolTip": "C:\\Users\\Lasalle 03-23\\Desktop\\Programacion1\\Practica\\EstructurasDeDatos\\Solucion_EstructuraDeDatos\\03_CrearPila\\Cola.cs",
-              "RelativeToolTip": "03_CrearPila\\Cola.cs",
-              "ViewState": "AgIAAAsAAAAAAAAAAAAQwEUAAAATAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-02T14:19:29.58Z",
-              "IsPinned": true,
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Nodo.cs",
-              "DocumentMoniker": "C:\\Users\\Lasalle 03-23\\Desktop\\Programacion1\\Practica\\EstructurasDeDatos\\Solucion_EstructuraDeDatos\\03_CrearPila\\Nodo.cs",
-              "RelativeDocumentMoniker": "03_CrearPila\\Nodo.cs",
-              "ToolTip": "C:\\Users\\Lasalle 03-23\\Desktop\\Programacion1\\Practica\\EstructurasDeDatos\\Solucion_EstructuraDeDatos\\03_CrearPila\\Nodo.cs",
-              "RelativeToolTip": "03_CrearPila\\Nodo.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAaAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-02T14:18:39.678Z",
-              "EditorCaption": ""
-            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\Lasalle 03-23\\Desktop\\Programacion1\\Practica\\EstructurasDeDatos\\Solucion_EstructuraDeDatos\\03_CrearPila\\Program.cs",
-              "RelativeDocumentMoniker": "03_CrearPila\\Program.cs",
-              "ToolTip": "C:\\Users\\Lasalle 03-23\\Desktop\\Programacion1\\Practica\\EstructurasDeDatos\\Solucion_EstructuraDeDatos\\03_CrearPila\\Program.cs",
-              "RelativeToolTip": "03_CrearPila\\Program.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAwAwAAAAtAAAAAAAAAA==",
+              "DocumentMoniker": "C:\\Users\\Lasalle 03-23\\Desktop\\Programacion1\\Practica\\EstructurasDeDatos\\Solucion_EstructuraDeDatos\\05_Ordenamientos\\Program.cs",
+              "RelativeDocumentMoniker": "05_Ordenamientos\\Program.cs",
+              "ToolTip": "C:\\Users\\Lasalle 03-23\\Desktop\\Programacion1\\Practica\\EstructurasDeDatos\\Solucion_EstructuraDeDatos\\05_Ordenamientos\\Program.cs",
+              "RelativeToolTip": "05_Ordenamientos\\Program.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAzwA0AAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-02T14:18:27.766Z",
+              "WhenOpened": "2026-06-02T16:34:26.244Z",
               "EditorCaption": ""
             }
           ]
