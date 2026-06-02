@@ -7,4 +7,8 @@
     <Project Path="02_CrearPila/02_CrearPila.csproj" />
     <Project Path="02_Pila/02_Pila.csproj" />
   </Folder>
+  <Folder Name="/03_Colas/">
+    <Project Path="03_Colas/03_Colas.csproj" />
+    <Project Path="03_CrearPila/03_CrearPila.csproj" />
+  </Folder>
 </Solution>
