@@ -23,5 +23,6 @@
   </Folder>
   <Folder Name="/07_ArreglosMatrices/">
     <Project Path="01_Ejercicio/01_Ejercicio.csproj" />
+    <Project Path="02_Ejercicio/02_Ejercicio.csproj" />
   </Folder>
 </Solution>
