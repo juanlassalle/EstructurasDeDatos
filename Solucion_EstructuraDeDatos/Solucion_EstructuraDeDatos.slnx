@@ -18,4 +18,10 @@
   <Folder Name="/05_AlgoritmosOrdenamiento/">
     <Project Path="05_Ordenamientos/05_Ordenamientos.csproj" />
   </Folder>
+  <Folder Name="/06_OrdenamientosEficientes/">
+    <Project Path="MergeSort/06_Ordenamientos.csproj" />
+  </Folder>
+  <Folder Name="/07_ArreglosMatrices/">
+    <Project Path="01_Ejercicio/01_Ejercicio.csproj" />
+  </Folder>
 </Solution>
