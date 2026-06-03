@@ -25,5 +25,6 @@
     <Project Path="01_Ejercicio/01_Ejercicio.csproj" Id="bf609b08-b563-4f0e-a352-92860c32a031" />
     <Project Path="02_Ejercicio/02_Ejercicio.csproj" Id="160718fb-6cef-4484-b8d2-c9f062c1131e" />
     <Project Path="03_Ejercicio/03_Ejercicio.csproj" Id="6cd0c37e-9015-4c11-b320-34441ae36e8f" />
+    <Project Path="04_Ejercicio/04_Ejercicio.csproj" Id="8cc0b416-1111-44f5-8428-d6c2c9626586" />
   </Folder>
 </Solution>
