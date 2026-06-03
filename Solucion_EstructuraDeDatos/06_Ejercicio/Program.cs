@@ -14,7 +14,7 @@ namespace _06_Ejercicio
         static void Main(string[] args)
         {
             int[,] matriz = new int[4, 4];
-            int contar = 1;
+            int contar = 0;
 
             for (int f = 0; f < 4; f++)
             {

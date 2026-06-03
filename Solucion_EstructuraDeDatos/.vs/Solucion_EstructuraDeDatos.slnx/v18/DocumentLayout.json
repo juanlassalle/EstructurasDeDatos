@@ -3,8 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\Lasalle 03-23\\Desktop\\Programacion1\\Practica\\EstructurasDeDatos\\Solucion_EstructuraDeDatos\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{8CC0B416-1111-44F5-8428-D6C2C9626586}|04_Ejercicio\\04_Ejercicio.csproj|c:\\users\\lasalle 03-23\\desktop\\programacion1\\practica\\estructurasdedatos\\solucion_estructuradedatos\\04_ejercicio\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8CC0B416-1111-44F5-8428-D6C2C9626586}|04_Ejercicio\\04_Ejercicio.csproj|solutionrelative:04_ejercicio\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{FFE1AA87-F5DB-4EAD-9CED-8C359A871ADA}|06_Ejercicio\\06_Ejercicio.csproj|c:\\users\\lasalle 03-23\\desktop\\programacion1\\practica\\estructurasdedatos\\solucion_estructuradedatos\\06_ejercicio\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FFE1AA87-F5DB-4EAD-9CED-8C359A871ADA}|06_Ejercicio\\06_Ejercicio.csproj|solutionrelative:06_ejercicio\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{399B1735-8F67-4B6A-BDD9-192BB962BB6E}|05_Ejercicio\\05_Ejercicio.csproj|c:\\users\\lasalle 03-23\\desktop\\programacion1\\practica\\estructurasdedatos\\solucion_estructuradedatos\\05_ejercicio\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{399B1735-8F67-4B6A-BDD9-192BB962BB6E}|05_Ejercicio\\05_Ejercicio.csproj|solutionrelative:05_ejercicio\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -20,13 +24,26 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\Lasalle 03-23\\Desktop\\Programacion1\\Practica\\EstructurasDeDatos\\Solucion_EstructuraDeDatos\\04_Ejercicio\\Program.cs",
-              "RelativeDocumentMoniker": "04_Ejercicio\\Program.cs",
-              "ToolTip": "C:\\Users\\Lasalle 03-23\\Desktop\\Programacion1\\Practica\\EstructurasDeDatos\\Solucion_EstructuraDeDatos\\04_Ejercicio\\Program.cs",
-              "RelativeToolTip": "04_Ejercicio\\Program.cs",
-              "ViewState": "AgIAAB8AAAAAAAAAAAAiwCsAAAAQAAAAAAAAAA==",
+              "DocumentMoniker": "C:\\Users\\Lasalle 03-23\\Desktop\\Programacion1\\Practica\\EstructurasDeDatos\\Solucion_EstructuraDeDatos\\06_Ejercicio\\Program.cs",
+              "RelativeDocumentMoniker": "06_Ejercicio\\Program.cs",
+              "ToolTip": "C:\\Users\\Lasalle 03-23\\Desktop\\Programacion1\\Practica\\EstructurasDeDatos\\Solucion_EstructuraDeDatos\\06_Ejercicio\\Program.cs",
+              "RelativeToolTip": "06_Ejercicio\\Program.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABAAAAAaAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-03T17:07:12.706Z",
+              "WhenOpened": "2026-06-03T18:49:09.573Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Lasalle 03-23\\Desktop\\Programacion1\\Practica\\EstructurasDeDatos\\Solucion_EstructuraDeDatos\\05_Ejercicio\\Program.cs",
+              "RelativeDocumentMoniker": "05_Ejercicio\\Program.cs",
+              "ToolTip": "C:\\Users\\Lasalle 03-23\\Desktop\\Programacion1\\Practica\\EstructurasDeDatos\\Solucion_EstructuraDeDatos\\05_Ejercicio\\Program.cs",
+              "RelativeToolTip": "05_Ejercicio\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-03T18:15:31.421Z",
               "EditorCaption": ""
             }
           ]
