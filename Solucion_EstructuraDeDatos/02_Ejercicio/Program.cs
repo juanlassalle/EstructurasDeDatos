@@ -25,10 +25,12 @@ namespace _02_Ejercicio
 
             while (i < nElementos)
             {
-                Console.WriteLine("===Crear Vectores A y B===");
-                Console.Write($"Ingresar elemento {i}: ");
+                Console.WriteLine($"\n=== Elemento {i} ===");
+
+                Console.Write("Ingresar valor para Vector A: ");
                 vectorA[i] = Convert.ToInt32(Console.ReadLine());
-                Console.Write($"Ingresar elemento {i}: ");
+
+                Console.Write("Ingresar valor para Vector B: ");
                 vectorB[i] = Convert.ToInt32(Console.ReadLine());
 
                 Console.WriteLine();
@@ -43,7 +45,9 @@ namespace _02_Ejercicio
                 i++;
             }
 
-            Console.Write($"VectorC: [{string.Join(" , ", vectorC)}]");
+            Console.WriteLine("\n-------------------------------------------");
+            Console.WriteLine($"Vector C (Suma): [{string.Join(", ", vectorC)}]");
+            Console.WriteLine("-------------------------------------------");
 
         }
     }

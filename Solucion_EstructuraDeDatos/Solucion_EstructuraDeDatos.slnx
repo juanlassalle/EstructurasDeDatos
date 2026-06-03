@@ -1,28 +1,29 @@
 <Solution>
   <Folder Name="/01_ListasEnlazadas/">
-    <Project Path="01_ListaEnlazadaSimple/01_ListaEnlazadaSimple.csproj" />
-    <Project Path="02_ListaEnlazada/02_ListaEnlazada.csproj" />
+    <Project Path="01_ListaEnlazadaSimple/01_ListaEnlazadaSimple.csproj" Id="901567e7-afa0-4ec2-90cf-308c01911e03" />
+    <Project Path="02_ListaEnlazada/02_ListaEnlazada.csproj" Id="27865c35-00f7-4d40-a6b2-61acb3a43e68" />
   </Folder>
   <Folder Name="/02_Pilas/">
-    <Project Path="02_CrearPila/02_CrearPila.csproj" />
-    <Project Path="02_Pila/02_Pila.csproj" />
+    <Project Path="02_CrearPila/02_CrearPila.csproj" Id="d10d6f46-db59-46c2-ab9a-c232c57a884b" />
+    <Project Path="02_Pila/02_Pila.csproj" Id="545c1625-a837-416d-97ee-29f789c94642" />
   </Folder>
   <Folder Name="/03_Colas/">
-    <Project Path="03_Colas/03_Colas.csproj" />
-    <Project Path="03_CrearPila/03_CrearPila.csproj" />
+    <Project Path="03_Colas/03_Colas.csproj" Id="b1867473-d6f9-49b6-93da-cef5b530dacf" />
+    <Project Path="03_CrearPila/03_CrearPila.csproj" Id="ffca1671-ee3a-46e4-aa86-9b9a09b91d52" />
   </Folder>
   <Folder Name="/04_ArbolesBinarios/">
-    <Project Path="04_ArbolesBin/04_ArbolesBin.csproj" />
-    <Project Path="ArbolBinarioBusqueda/ArbolBinarioBusqueda.csproj" />
+    <Project Path="04_ArbolesBin/04_ArbolesBin.csproj" Id="2365da47-c212-425b-add6-8ea292838b98" />
+    <Project Path="ArbolBinarioBusqueda/ArbolBinarioBusqueda.csproj" Id="ad44f211-f255-4c94-a6ea-cb287d2436ac" />
   </Folder>
   <Folder Name="/05_AlgoritmosOrdenamiento/">
-    <Project Path="05_Ordenamientos/05_Ordenamientos.csproj" />
+    <Project Path="05_Ordenamientos/05_Ordenamientos.csproj" Id="b4aea1b6-51f3-4ad9-a976-50a9ee1eeccf" />
   </Folder>
   <Folder Name="/06_OrdenamientosEficientes/">
-    <Project Path="MergeSort/06_Ordenamientos.csproj" />
+    <Project Path="MergeSort/06_Ordenamientos.csproj" Id="c0d3da39-d46b-4aec-ad75-b0206541c502" />
   </Folder>
   <Folder Name="/07_ArreglosMatrices/">
-    <Project Path="01_Ejercicio/01_Ejercicio.csproj" />
-    <Project Path="02_Ejercicio/02_Ejercicio.csproj" />
+    <Project Path="01_Ejercicio/01_Ejercicio.csproj" Id="bf609b08-b563-4f0e-a352-92860c32a031" />
+    <Project Path="02_Ejercicio/02_Ejercicio.csproj" Id="160718fb-6cef-4484-b8d2-c9f062c1131e" />
+    <Project Path="03_Ejercicio/03_Ejercicio.csproj" Id="6cd0c37e-9015-4c11-b320-34441ae36e8f" />
   </Folder>
 </Solution>

@@ -3,8 +3,8 @@
   "WorkspaceRootPath": "C:\\Users\\Lasalle 03-23\\Desktop\\Programacion1\\Practica\\EstructurasDeDatos\\Solucion_EstructuraDeDatos\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{160718FB-6CEF-4484-B8D2-C9F062C1131E}|02_Ejercicio\\02_Ejercicio.csproj|c:\\users\\lasalle 03-23\\desktop\\programacion1\\practica\\estructurasdedatos\\solucion_estructuradedatos\\02_ejercicio\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{160718FB-6CEF-4484-B8D2-C9F062C1131E}|02_Ejercicio\\02_Ejercicio.csproj|solutionrelative:02_ejercicio\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{6CD0C37E-9015-4C11-B320-34441AE36E8F}|03_Ejercicio\\03_Ejercicio.csproj|c:\\users\\lasalle 03-23\\desktop\\programacion1\\practica\\estructurasdedatos\\solucion_estructuradedatos\\03_ejercicio\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6CD0C37E-9015-4C11-B320-34441AE36E8F}|03_Ejercicio\\03_Ejercicio.csproj|solutionrelative:03_ejercicio\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -20,13 +20,13 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\Lasalle 03-23\\Desktop\\Programacion1\\Practica\\EstructurasDeDatos\\Solucion_EstructuraDeDatos\\02_Ejercicio\\Program.cs",
-              "RelativeDocumentMoniker": "02_Ejercicio\\Program.cs",
-              "ToolTip": "C:\\Users\\Lasalle 03-23\\Desktop\\Programacion1\\Practica\\EstructurasDeDatos\\Solucion_EstructuraDeDatos\\02_Ejercicio\\Program.cs*",
-              "RelativeToolTip": "02_Ejercicio\\Program.cs*",
-              "ViewState": "AgIAABAAAAAAAAAAAAD4vycAAAAWAAAAAAAAAA==",
+              "DocumentMoniker": "C:\\Users\\Lasalle 03-23\\Desktop\\Programacion1\\Practica\\EstructurasDeDatos\\Solucion_EstructuraDeDatos\\03_Ejercicio\\Program.cs",
+              "RelativeDocumentMoniker": "03_Ejercicio\\Program.cs",
+              "ToolTip": "C:\\Users\\Lasalle 03-23\\Desktop\\Programacion1\\Practica\\EstructurasDeDatos\\Solucion_EstructuraDeDatos\\03_Ejercicio\\Program.cs",
+              "RelativeToolTip": "03_Ejercicio\\Program.cs",
+              "ViewState": "AgIAADIAAAAAAAAAAAAmwEEAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-02T18:24:47.864Z",
+              "WhenOpened": "2026-06-02T21:18:48.193Z",
               "EditorCaption": ""
             }
           ]
